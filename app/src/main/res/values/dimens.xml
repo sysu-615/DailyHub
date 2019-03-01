@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="littleTextSize">12sp</dimen>
+    <dimen name="littleMarginSize">5dp</dimen>
+    <dimen name="MiddleTextSize">18sp</dimen>
+    <dimen name="MiddleMarginSize">15dp</dimen>
+    <dimen name="LargeTextSize">24sp</dimen>
+    <dimen name="borderRadius">6sp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

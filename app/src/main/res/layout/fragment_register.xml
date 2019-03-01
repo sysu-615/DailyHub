@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context=".Auth.RegisterFragment"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/LargeTextSize"
+            android:text="@string/app_name"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatarImageViewRegi"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/image46"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:id="@+id/editUsernameRegi"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:hint="@string/username"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/editPasswordRegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPassword"/>
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnRegi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            custom:pb_colorComplete="@color/green_complete"
+            custom:pb_colorNormal="@color/blue_normal"
+            custom:pb_colorPressed="@color/blue_pressed"
+            custom:pb_colorProgress="@color/purple_progress"
+            custom:pb_textError="@string/failRegi"
+            custom:pb_textComplete="@string/successRegi"
+            custom:pb_textProgress="@string/loadingRegi" />
+
+    </LinearLayout>
+
+</FrameLayout>
